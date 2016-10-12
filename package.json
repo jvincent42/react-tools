@@ -1,0 +1,32 @@
+{
+  "name": "react-tools",
+  "version": "0.1.0",
+  "description": "Tools for react development",
+  "bin": {
+      "new-component": "./new-component.js"
+  },
+  "main": "new-component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvincent42/react-tools.git"
+  },
+  "keywords": [
+    "react",
+    "tool",
+    "dev"
+  ],
+  "author": "ato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jvincent42/react-tools/issues"
+  },
+  "homepage": "https://github.com/jvincent42/react-tools#readme",
+  "dependencies": {
+    "file-exists": "^2.0.0",
+    "mkdirp": "^0.5.1",
+    "yargs": "^6.0.0"
+  }
+}
